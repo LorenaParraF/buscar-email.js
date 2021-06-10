@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    
+    .table {
+      font-family: sans-serif;
+    }
+    
+    .table thead{
+      background-color: rgb(39, 197, 0);
+     color: #fff; 
+    }
+
+    .table th,.table td {
+     padding: 5px;
+      border: none;
+      outline: none;
+    }
+  </style>
+  
+</head>
+<body>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">nombre</th>
+        <th scope="col">email</th>
+        <th scope="col">edad</th>
+        <th scope="col">sexo</th>
+        <th scope="col">redes sociales</th>
+      </tr>
+    </thead>
+    <tbody id="innder_data">
+<!-- alojar la informacion -->
+    </tbody>
+  </table>
+  
+  <script src="app.js"></script>
+</body>
+</html>
