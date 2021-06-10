@@ -55,7 +55,7 @@ const usersIncludes = users.filter((el) => el.email.includes("@academlo.com"));
 
 console.log(usersIncludes);
 
-// es obligatorio usar comillas simples para poder interpolar (insertar) variables en un string;
+
 let template = ``;
 
 
